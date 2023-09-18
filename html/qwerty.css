@@ -1,46 +1,53 @@
 #heading{
-font-family: 'Courier New', Courier, monospace;
+font-family:"Futura PT";
 text-align: center;
+text-align: center;   
+line-height: 55px; 
+text-decoration: none;
 }
 
-section{
-    background-color: antiquewhite;
-    float: left;
-    width:40%;
-    height: 650px;;
-    padding: 0;
-    margin: 0;
+a{
+   color: black;
+}
+
+nav{
+   width: 100%;
+
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   background-color: Black;
+
+   font-family: Arial, sans-serif;
+   font-size: 15px;
 
 }
 
-#setting{
-    text-align: center;
-    padding: 10px;
-    margin: 80px;
-    font-size: 250%;
+#nav{display:flex;
+   width: 100px;
+   height: 55px;
+   color: White;
+}
+a:hover{
+text-decoration: underline;
+color: burlywood;
 }
 
-#team{
-     text-align: center;
-     padding: 10px;
-     margin: 80px;
-     font-size: 250%;
+#navsetting{
+   top: 0;
+   float: left;
+}
+
+#navteam{
+     top: 0;
+     margin-right: 20px;
+     margin-left: 20px;
  }
- #menu{
-    text-align: center;
-     padding: 10px;
-     margin: 80px;
-     font-size: 250%;
+ #navmenu{
+    top: 0;
  }
- #reserve{
-    text-align: center;
-     padding: 10px;
-     margin: 80px;
-     font-size: 250%;
- }
- 
  img{
-    float: right;
     width: 60%;
     height: 650px;
  }
@@ -50,6 +57,6 @@ section{
  }
 
  footer{
-    background-color: antiquewhite;
+    background-color: #e7c27d;
  }
 
