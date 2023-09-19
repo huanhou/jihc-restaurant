@@ -63,15 +63,20 @@ section{
          .footer-logo {
              font-size: 24px;
              font-weight: bold;
+             font-family: 'Forum', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Noticia Text', serif;
          }
          
-         .footer-contact {
-             font-size: 16px;
-             margin-top: 10px;
-         }
-        
-       
     
+        .fab fa-instagram{
+
+
+
+
+        }
+
+         
         
          
          .copyright {
