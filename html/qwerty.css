@@ -74,7 +74,18 @@ color: burlywood;
  .container {
    text-align: center;
    color: white;
-   size: 200px; ;
+   size: 1050px; 
+   width: 1500px;
+   height: 800px;;
+   overflow:hidden; 
+   margin:0;  
+ }
+
+ .container img{
+   display:block; 
+   margin:0 -59.885%;
+   width:200%;
+   
  }
 
  .centered {
@@ -83,6 +94,7 @@ color: burlywood;
    left: 50%;
    transform: translate(-50%, -50%);
    font-size: 50px;
+   text-shadow: #e7c27d;
  }
 
  #video{
