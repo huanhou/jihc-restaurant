@@ -102,7 +102,21 @@ color: burlywood;
     height: 50%;
  }
 
- footer{
-    background-color: #e7c27d;
- }
-
+   footer{
+      background-color: antiquewhite;
+   }
+  
+           footer {
+               background-color:#6f9196;
+               color: #fff;
+               padding: 20px;
+               text-align: center;
+           }
+           
+           .footer-logo {
+               font-size: 24px;
+               font-weight: bold;
+               font-family: 'Forum', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Noticia Text', serif;}
+ 
