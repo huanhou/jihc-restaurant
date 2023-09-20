@@ -105,7 +105,46 @@ color: burlywood;
     height: 50%;
  }
 
- footer{
-    background-color: #e7c27d;
- }
+ .login-container{
+   background: rgba(255,255,255,0.8);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+   width: 300px;
+   text-align: center;
+}
+.login-container h2{
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color:#007bff;
+}
 
+
+.q{
+   float: flex;
+   float: inline-start;
+}
+
+.right{
+inline-size: 50%;
+}
+
+
+footer{
+   background-color: antiquewhite;
+}
+
+        footer {
+            background-color:#6f9196;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Forum', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Noticia Text', serif;}
