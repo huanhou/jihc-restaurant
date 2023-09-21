@@ -139,7 +139,7 @@ color: burlywood;
    
  }
 
- .centered {
+ .w3-xxlarge {
    position: absolute;
    top: 50%;
    left: 50%;
@@ -152,6 +152,25 @@ color: burlywood;
     height: 50%;
  }
 
+
+ footer{
+    background-color: #e7c27d;
+ }
+ container{ display: flex;
+ }
+ .div{
+   border-radius: 20px;
+   margin-left: 10px; 
+   height: 200px; 
+   background-color: #fff;
+   flex: 1; 
+   transition: .3s all ease;
+  }
+   .div:hover{
+      flex: 2;
+      background-color: rgb(207, 207, 207);
+   }
+=======
          footer {
              background-color:#6f9196;
              color: #fff;
@@ -218,3 +237,4 @@ footer{
             font-family: 'Forum', cursive;
 font-family: 'Great Vibes', cursive;
 font-family: 'Noticia Text', serif;}
+
